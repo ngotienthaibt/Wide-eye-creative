@@ -1,0 +1,1428 @@
+/*my css style*/
+/**
+* html5doctor.com Reset Stylesheet v1.6.1 (http://html5doctor.com/html-5-reset-stylesheet/)
+* Richard Clark (http://richclarkdesign.com)
+* http://cssreset.com
+*/
+button {
+  padding: 0px;
+}
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+margin:0;
+padding:0;
+border:0;
+outline:0;
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+}
+body {
+line-height:1;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+display:block;
+}
+nav ul {
+list-style:none;
+}
+blockquote, q {
+quotes:none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content:'';
+content:none;
+}
+a {
+margin:0;
+padding:0;
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+}
+ul{
+  list-style: none;
+}
+a:hover{
+  text-decoration: none;
+}
+/* change colours to suit your needs */
+ins {
+background-color:#ff9;
+color:#000;
+text-decoration:none;
+}
+/* change colours to suit your needs */
+mark {
+background-color:#ff9;
+color:#000;
+font-style:italic;
+font-weight:bold;
+}
+del {
+text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+border-bottom:1px dotted;
+cursor:help;
+}
+table {
+border-collapse:collapse;
+border-spacing:0;
+}
+/* change border colour to suit your needs */
+hr {
+display:block;
+height:1px;
+border:0;
+border-top:1px solid #cccccc;
+margin:1em 0;
+padding:0;
+}
+input, select {
+vertical-align:middle;
+}
+/*end reset css*/
+/*genner css*/
+
+/*man menu*/
+#menu-icon {
+  position: fixed;
+  top: 0px;right: 30px;
+  padding: 0px 0px 20px 0px;
+  background: none;
+  border: none;
+  line-height: 0px;
+  color: #EE2547;
+  z-index: 100;
+  opacity: 0.6;
+  
+}
+#menu-icon:hover {
+  opacity: 1;
+}
+#menu-icon span.glyphicon-align-justify:before {
+  font-size: 2.5em;
+  color: #EE2547;
+}
+#menu-icon span{
+  display: block;
+  background-size:  100px;
+}
+#nav-remove {
+  background: transparent;
+  border: none;
+  position: absolute;top: 20px;right: 20px;
+}
+.glyphicon-remove:before{
+  font-size: 3em;
+}
+
+nav{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.9);
+  z-index: 100;
+  display: none;;
+}
+
+nav ul {
+  display: block;
+  text-align: center;
+  margin-top: 5%;
+  height: 100%;
+}
+nav li {
+  height: 20%;
+}
+nav ul li a {
+  display: block;
+  height: 100%;
+  color: white;
+  font-weight: bold;
+  font-size: 4em;
+}
+nav ul li a:hover {
+  color: #FF455F;
+  font-weight: bold;
+}
+/*End main menu*/
+/*hover button*/
+ .while,.red{ /*button*/
+    margin:0px auto;
+  width: 430px;
+   height: 55px;
+  border: 1px solid #fff;
+  display: block;
+   text-align: center;
+   position: relative;
+   overflow: hidden;
+   
+   
+}
+.while span,.red span{
+   display: block;
+   width: 428px;
+   height: 53px;
+   font-size: 1.5em;
+  text-transform: uppercase;
+ 
+  
+ }
+.while span:first-child {
+  line-height: 55px;
+  background: transparent;
+  color: #fff;
+   position: absolute;top: 0px;left: 0px;
+   -webkit-transition: all ease 0.2s; /* For Safari 3.1 to 6.0 */
+    transition: all ease 0.2s;
+}
+.while span:last-child {
+   position: absolute;
+   color: #FF455F;
+  background: #fff;
+  height: 53px;
+  top: 53px;
+ -webkit-transition: all ease 0.2s; /* For Safari 3.1 to 6.0 */
+  transition: all ease 0.2s;
+}
+.red span:last-child{
+   position: absolute;
+   color: #fff;
+  background: #FF455F;
+  height: 53px;
+  top: 53px;
+ -webkit-transition: all ease 0.2s; /* For Safari 3.1 to 6.0 */
+  transition: all ease 0.2s;
+}
+.red{
+  border: 2px solid #FF455F;
+}
+.red span:first-child{
+   line-height: 53px;
+  background: #fff;
+  color: #FF455F;
+   position: absolute;top: 0px;left: 0px;
+   -webkit-transition: all ease 0.2s; /* For Safari 3.1 to 6.0 */
+    transition: all ease 0.2s;
+}
+.while:hover span:first-child,.red:hover span:first-child{
+ top: -53px;
+}
+.while:hover span:last-child,.red:hover span:last-child{
+  top: 0px;
+  display: block;
+  line-height: 53px;
+}
+
+
+/*end hover button*/
+.h2-style {
+   text-align: center;
+  color: #4A5666;
+  text-transform: uppercase;
+  word-spacing: 1em;
+  letter-spacing: 0.7em;
+  font-weight: bold;
+  width: 500px;
+  margin: 0px auto;
+  border-bottom: 2px solid   ;
+  margin-bottom: 10px;
+  padding-bottom: 5px; 
+}
+body {
+ 
+  height: 1000px;
+  background: url(../../images/footer-photo1.jpg) no-repeat top left;
+  background-attachment: fixed;
+}
+header{
+  position: fixed;
+  top: 20px;
+  left:30px;
+}
+header a {
+  display: block;
+  background: red;
+   float: left;
+    position: relative;
+ 
+  }
+header h1 {
+  color: white;
+}
+
+#Banner{
+  
+  position: fixed;
+  background: url(../../footer-photo1.jpg) no-repeat top left;
+ 
+  
+}
+#Banner p {
+  color: white;
+  text-align: center;
+}
+
+#Intro{
+  text-align: center;
+  padding-top: 50px;
+  background: white;
+}
+#Intro div ul{
+ text-align: center;
+  overflow: hidden;
+}
+#Intro div ul li {
+ display: inline;
+}
+#Intro div ul li a{
+ margin-left: 20px;
+}
+#Intro div ul li:first-child a {
+  margin-left: 0px;
+}
+#Intro div ul li a .img-responsive{
+  display: inline;
+}
+#Intro p {
+  font-family: "arial",  Helvetica, sans-serif;
+  font-size: 2em;
+  margin-top: 20px;
+  color:#4A5666;
+}
+#project {
+  background: white;
+  text-align: center;
+  padding-top: 40px;
+   overflow: hidden;
+}
+
+#project>div{
+  overflow-x: hidden;
+}
+
+#project #someProject a {
+  
+  display: block;
+  background: url(../../images/rect-ots1.jpg) no-repeat top left;
+  height: 587px;
+ 
+    
+}
+#project #someProject a:nth-child(2){
+    background: url(../../images/square-nydems1.jpg) no-repeat;
+   background-size: 100% 100%;
+}
+#project #someProject a:nth-child(4){
+   
+  background: url(../../images/rect-alg1.jpg) no-repeat top left;
+  
+}
+#project #someProject a:nth-child(3){
+  
+  background: url(../../images/square-pelosi1.jpg) no-repeat;
+ background-size: 100% 100%;  
+}
+#project #someProject a:nth-child(6){
+   
+  background: url(../../images/square-nydems1.jpg) no-repeat top left;
+   background-size: 100% 100%;
+}
+
+#project div a h3{
+  color : white;
+  font-family: "Arial",Helvetica, sans-serif;
+  font-size: 3em;
+}
+#project div a p {
+  color: #fff;
+  font-family: "Arial",Helvetica,sans-serif;
+}
+#bg-project{
+  background: #ECF1F5;
+  overflow: hidden;
+  
+}
+#Partner {
+  padding-top: 50px;
+  background: #fff;
+  text-align: center;
+  padding-bottom: 50px;
+}
+#Partner h2 {
+  margin-bottom: 40px;
+}
+#Partner #MyParter h3 span {
+  background: url(../../images/social.png);
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: 0 auto;
+}
+#Partner #MyParter div:nth-child(3){
+  clear: both;
+ 
+}
+#Partner #MyParter div {
+   margin-top: 50px;
+}
+#Partner #MyParter h3 {
+  font-family: "Arial",Helveica,sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+  color: #4A5666;
+ line-height: 2em;
+}
+#Partner #MyParter p {
+  margin-top: 20px;
+  line-height: 1.5em;
+}
+#trust {
+  background: #ECF1F5;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+#trust h2 {
+  margin-bottom: 50px;
+}
+#trust #trust-logo .col-sm-2{
+  padding: 0px;
+  border-right: 1px solid #DCE2E9;
+}
+#trust #trust-logo .col-sm-2:last-child{
+  border: none;
+}
+#Digial {
+  background: #fff;
+  width: 100%;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+#Digial h2 {
+  width: 40%;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0px auto;
+  font-family: "Arial",Helveyica,sans-serif;
+  font-weight: bold;
+  font-size: 3em;
+  border-bottom: 2px solid #D7DEE5;
+}
+#Digial p {
+  width: 70%;
+  margin: 0px auto;
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  margin-top: 40px;
+}
+#DoIt{
+ 
+  position: relative;
+  background: url(../../images/footer-photo5.jpg) top left ;
+ 
+ 
+}
+#DoIt a h2{
+ text-align:  center;
+ color: white;
+ text-transform: uppercase;
+  font-size: 3em;
+  margin-top: 5%;
+  font-family: "Arial", sans-serif;
+ 
+}
+
+#DoIt>a {
+ 
+  text-align: center;
+  vertical-align: middle;
+ display: block;
+  overflow: hidden;
+  
+}
+#DoIt button {
+  margin-top: 20px;
+}
+#WebLink {
+  background: white;
+ margin-bottom: 250px;
+  padding: 100px 0px;
+}
+#WebLink #Slide {
+  width: 60%;
+  margin: 0px auto;
+  position: relative;
+}
+#WebLink #Slide .slideItem {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: #fff;
+  
+}
+#WebLink #Slide .slideItem p {
+  font-size: 1.5em;
+  text-align: center;
+}
+#WebLink #Slide .slideItem p a {
+  color: #EE2547;
+}
+#WebLink #Slide .slideItem ul {
+  overflow: hidden;
+  text-align: center;
+  margin-top: 20px;
+}
+#WebLink #Slide .slideItem ul li {
+  display: inline;
+}
+#WebLink #Slide .slideItem ul li a {
+  color: #4A5666;
+}
+#WebLink>ul {
+  overflow: hidden;
+  text-align: center;
+  margin-top: 200px;
+  
+} 
+#WebLink>ul li {
+  display: inline;
+}
+footer {
+  background: white url(../../images/footerBG.svg);
+    padding: 50px 0px;
+  text-align: center;
+  position: fixed;
+ bottom: 0px; left: 0px;
+  width: 100%;
+  z-index: -1;
+  display: none;
+  
+}
+footer ul {
+  overflow: hidden;
+  margin-top: 30px;
+}
+footer li {
+  display: inline;
+}
+footer li a {
+  padding: 0px 5px 0px 5px;
+  text-transform: uppercase;
+  color: #4A5666;
+}
+footer li a:after {
+  content:"•";
+  font-size: 1em;
+  margin-left: 10px;
+  
+ 
+}
+footer li:last-child a:after{
+  content: "";
+}
+footer address {
+  margin: 20px 0px 0px 0px;
+  text-align: center;
+}
+footer address a {
+  display: block;
+  font-size: 1.5em;
+}
+/*media query */
+/*for destop*/
+@media only screen and (min-width : 992px) {
+header {
+  z-index: 100;
+  height: 117px;
+  width: 500px;
+}
+  header a{
+    overflow: hidden;
+    float: left;
+    position: relative;
+  }
+header img {
+  z-index: 100;
+   width: 117px;
+   height: 117px ;
+  -moz-transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+ 
+  
+}
+  header h1 {
+    position: absolute;
+    line-height: 117px;
+    text-indent: 130px;
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+#Banner {
+ top: 30%;
+ left: 15%;
+  width: 70%;
+  z-index: -1;
+}
+  #Banner p {
+    line-height: 1.5em;
+    font-size: 4em;
+    text-transform: uppercase;
+  }
+  #Banner .while {
+    z-index: -1;
+  }
+  #Intro{
+    z-index: 3;
+    margin-top: 702px;
+  }
+  #project{
+    padding-top: 70px;
+  }
+  #project h2 {
+    margin-bottom: 50px;
+  }
+   #project #someProject a:after{
+     content: "";
+     width: 100%;
+     height: 100%;
+     position: absolute;top:0px;left: 0px;
+     background: black;
+     opacity: 0.5;
+     
+   }
+  @keyframes hovera{
+    from{background-size: 100% 100%;}
+    to{background-size: 130% 130%;}
+  }
+  @-webkit-keyframes hovera{
+    from{background-size: 100% 100%;}
+    to{background-size: 130% 130%;}
+  }
+  #project #someProject a {
+    height: 440px;
+    text-align: left;
+   background-size: 100% 100%;
+    -moz-transform: all ease 1s;
+    -webkit-transition: all ease 1s;
+    transition: all ease 2s;
+    position: relative;
+  }
+    #project #someProject a:hover{
+      background-size: 130% 130%; 
+      animation: hovera 1s;
+       -webkit-animation: hovera 1s;
+       -o-animation: hovera 1s;
+      -ms-animation: hovera 1s;
+       -moz-animation: hovera 1s;
+    }
+  
+  
+  
+  
+  #project #someProject a.col-md-8 h3 {
+    margin: 10% 0% 0% 10%;
+   
+  }
+   #project #someProject a.col-md-8 p {
+     width: 60%;
+    margin: 0% 0% 0% 10%;
+     line-height: 1.2em;
+  }
+  #project #someProject .col-md-4 h3 {
+    margin: 10% 0% 0% 10%;
+  }
+   #project #someProject a.col-md-4 p {
+    
+     width: 80%;
+    margin: 0% 0% 0% 10%;
+     line-height: 1.2em;
+  }
+  #project #bg-project {
+    padding: 100px 0px;
+  }
+  #project h3{
+     z-index: 3;
+    position: relative;
+    display: none;
+     transition : all 2s ease;
+    -webkit-transition : all 0.5s ease;
+     -ms-transition : all 0.5s ease;
+     -o-transition : all 0.5s ease;
+     -moz-transition : all 0.5s ease;
+  }
+   #project a:hover> h3{
+     z-index: 3;
+    position: relative;
+    display: block;
+     
+  }
+  #project p {
+    z-index: 3;
+    position: relative;
+    display: none;
+     transition : all 2s ease;
+    -webkit-transition : all 0.5s ease;
+     -ms-transition : all 0.5s ease;
+     -o-transition : all 0.5s ease;
+     -moz-transition : all 0.5s ease;
+   
+  }
+    #project a:hover>p{
+      display: block;
+    }
+  .opacity-span {
+    display: block;
+    position: absolute;top: 0px;left: 0px;
+    width: 100%;
+    height: 100%;
+    background: #272535;
+    opacity: 0.6;
+  }
+  #trust {
+    position: relative;
+   
+  }
+  #trust:before  {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    margin-left: -50px;
+    content: "";
+    border-top: 50px solid #fff;
+     border-right: 50px solid #ECF1F5;
+     border-bottom: 0px solid #ECF1F5;
+     border-left: 50px solid #ECF1F5;
+  }
+  #Digial {
+    padding-bottom: 70px;
+  }
+  #Digial .red {
+    margin-top: 70px;
+  }
+ 
+  #DoIt:after {
+  position: absolute;
+    top: 0px;
+    left: 50%;
+    margin-left: -50px;
+    content: "";
+    border-top: 50px solid #fff;
+     border-right: 50px solid transparent;
+     border-bottom: 0px solid #ECF1F5;
+     border-left: 50px solid transparent;
+  }
+  #DoIt #opacity-bg {
+    
+   display: block;
+   background: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    
+    top: 0px;left: 0px;
+    
+   opacity: 0.6;
+  }
+  #DoIt {
+    height: 704px;
+    background-size: 100% 100%;
+    -moz-transition: all ease 0.7s;
+    -webkit-transition: all ease 0.7s;
+    transition: all ease 2s;
+  }
+ 
+  #DoIt a {
+    position: relative;
+    height: 100%;
+   
+    
+  }
+  
+  #DoIt a h2 {
+   margin-top: 20%;
+    font-weight: bold;
+    font-size: 5em;
+    position: relative;
+    opacity: 0.7;
+    -moz-transition: all ease 0.6s;
+    -webkit-transition: all ease 0.6s;
+    transition: all ease 0.6s;
+  }
+    #DoIt:hover a h2{
+      opacity: 1;
+    }
+    #DoIt a button {
+      
+      position: relative;
+      opacity: 0.7;
+      -moz-transition: all ease 0.6s;
+    -webkit-transition: all ease 0.6s;
+    transition: all ease 0.6s;
+    }
+  #DoIt:hover a button{
+    opacity: 1;
+  }
+
+  
+}
+/*for tablet*/
+@media only screen and (min-width: 768px) and (max-width: 991px){
+  header {
+  z-index: 100;
+  height: 53px;
+  width: 100%;
+    background: #0E1832;
+    top: 0px;
+    left: 0px;
+}
+  header a{
+    overflow: hidden;
+    float: left;
+    position: relative;
+    margin-left: 10px;
+  }
+header img {
+  z-index: 100;
+   width: 53px !important;;
+   height: 53px !important; ;
+ 
+}
+  header h1 {
+    position: absolute;
+    line-height: 53px;
+    text-indent: 90px;
+    font-weight: bold;
+    font-size: 1em;
+    display: block !important;
+  }
+  #menu-icon {
+    top: -20px;
+    height: 53px;
+    right: 0px;
+    line-height: 53px;
+   width: 120px;
+  }
+  
+  #menu-icon span.glyphicon-align-justify:before {
+  font-size: 2em;
+    display: block;
+    margin-top: 10px;
+   float: right;
+  color: #EE2547;
+}
+  
+  
+#Banner {
+ top: 30%;
+ left: 15%;
+  width: 70%;
+  z-index: -1;
+}
+  #Banner p {
+    line-height: 1.5em;
+    font-size: 2.5em;
+    text-transform: uppercase;
+  }
+  #Banner .while {
+    z-index: -1;
+  }
+  #Intro{
+    z-index: 3;
+    margin-top: 702px;
+  }
+   #project #someProject a{
+     position: relative;
+   }
+  #project #someProject a:after{
+    content: "";
+    background: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px; left: 0px;
+  opacity: 0.7;
+  }
+  #project{
+    padding-top: 70px;
+  }
+  #project h2 {
+    margin-bottom: 50px;
+  }
+  
+  
+  #project #someProject a {
+    height:340px;
+    text-align: left;
+   background-size: 100% 100%;
+   
+  }
+
+  #project h3{
+     z-index: 3;
+    text-align: center;
+    font-size: 2em !important;;
+    position: relative;
+    margin-top: 20%;
+  
+     
+  }
+  #project p {
+    z-index: 3;
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+    position: relative;
+   
+   
+  }
+  #project #bg-project {
+      background: #ECF1F5;
+      padding: 100px 0px;
+  }
+  #trust {
+    position: relative;
+   
+  }
+  #trust:before  {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    margin-left: -50px;
+    content: "";
+    border-top: 50px solid #fff;
+     border-right: 50px solid #ECF1F5;
+     border-bottom: 0px solid #ECF1F5;
+     border-left: 50px solid #ECF1F5;
+  }
+  #Digial {
+    padding-bottom: 70px;
+  }
+  #Digial .red {
+    margin-top: 70px;
+  }
+ 
+  #DoIt:after {
+  position: absolute;
+    top: 0px;
+    left: 50%;
+    margin-left: -50px;
+    content: "";
+    border-top: 50px solid #fff;
+     border-right: 50px solid transparent;
+     border-bottom: 0px solid #ECF1F5;
+     border-left: 50px solid transparent;
+  }
+  #DoIt #opacity-bg {
+    
+   display: block;
+   background: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    
+    top: 0px;left: 0px;
+    
+   opacity: 0.6;
+  }
+  #DoIt {
+    height: 704px;
+    background-size: 100% 100%;
+    -moz-transition: all ease 0.7s;
+    -webkit-transition: all ease 0.7s;
+    transition: all ease 2s;
+  }
+ 
+  #DoIt a {
+    position: relative;
+    height: 100%;
+   
+    
+  }
+  
+  #DoIt a h2 {
+   margin-top: 20%;
+    font-weight: bold;
+    font-size: 5em;
+    position: relative;
+    opacity: 0.7;
+    -moz-transition: all ease 0.6s;
+    -webkit-transition: all ease 0.6s;
+    transition: all ease 0.6s;
+  }
+    #DoIt:hover a h2{
+      opacity: 1;
+    }
+    #DoIt a button {
+      
+      position: relative;
+      opacity: 0.7;
+      -moz-transition: all ease 0.6s;
+    -webkit-transition: all ease 0.6s;
+    transition: all ease 0.6s;
+    }
+  #DoIt:hover a button{
+    opacity: 1;
+  }
+
+}
+/*for mobie lanscape and tablet*/
+@media only screen and (max-width: 767px) and (min-width: 481px) {
+  header {
+  z-index: 100;
+  height: 53px;
+  width: 100%;
+    background: #0E1832;
+    top: 0px;
+    left: 0px;
+}
+  header a{
+    overflow: hidden;
+    float: left;
+    position: relative;
+    margin-left: 10px;
+  }
+header img {
+  z-index: 100;
+   width: 53px !important;
+   height: 53px !important;
+ 
+}
+  header h1 {
+    position: absolute;
+    line-height: 53px;
+    text-indent: 90px;
+    font-weight: bold;
+    font-size: 1em;
+     display: block !important;
+  }
+  #menu-icon {
+    top: -20px;
+    height: 53px;
+    right: 0px;
+    line-height: 53px;
+   width: 120px;
+  }
+  
+  #menu-icon span.glyphicon-align-justify:before {
+  font-size: 2em;
+    display: block;
+    margin-top: 10px;
+   float: right;
+  color: #EE2547;
+}
+  
+  
+#Banner {
+ top: 20%;
+ left: 15%;
+  width: 70%;
+  z-index: -1;
+}
+  #Banner p {
+    line-height: 1.5em;
+    font-size: 1.5em;
+    text-transform: uppercase;
+  }
+ .while {
+    z-index: -1;
+   width: 100%;
+  }
+  .while span {
+    width: 100%;
+  }
+  #Intro{
+    z-index: 3;
+    margin-top: 402px;
+  }
+   #project #someProject a{
+     position: relative;
+     
+   }
+  #project #someProject a:after{
+    content: "";
+    background: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px; left: 0px;
+  opacity: 0.7;
+  }
+
+  #project{
+    padding-top: 70px;
+  }
+  #project h2 {
+    margin-bottom: 10px;
+  }
+  
+  #project #someProject a {
+    height:240px;
+    text-align: left;
+   background-size: 100% 100%;
+   
+  }
+
+  #project h3{
+     z-index: 3;
+    text-align: center;
+    font-size: 2em !important;;
+    position: relative;
+   padding-top: 10%;
+  
+     
+  }
+  #project p {
+    z-index: 3;
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+    position: relative;
+   
+   
+  }
+  #project #bg-project {
+      background: #ECF1F5;
+      padding: 100px 0px;
+  }
+  #trust {
+    position: relative;
+   
+  }
+  #trust:before  {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    margin-left: -50px;
+    content: "";
+    border-top: 50px solid #fff;
+     border-right: 50px solid #ECF1F5;
+     border-bottom: 0px solid #ECF1F5;
+     border-left: 50px solid #ECF1F5;
+  }
+  #trust div:nth-child(4){
+    display: none;
+  }
+  #trust div:nth-child(5){
+    display: none;
+  }
+  #Digial {
+    padding-bottom: 70px;
+  }
+  #Digial .red {
+    margin-top: 70px;
+  }
+ 
+  #DoIt:after {
+  position: absolute;
+    top: 0px;
+    left: 50%;
+    margin-left: -50px;
+    content: "";
+    border-top: 50px solid #fff;
+     border-right: 50px solid transparent;
+     border-bottom: 0px solid #ECF1F5;
+     border-left: 50px solid transparent;
+  }
+  #DoIt #opacity-bg {
+    
+   display: block;
+   background: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    
+    top: 0px;left: 0px;
+    
+   opacity: 0.6;
+  }
+  #DoIt {
+    height: 504px;
+    background-size: 100% 100%;
+    -moz-transition: all ease 0.7s;
+    -webkit-transition: all ease 0.7s;
+    transition: all ease 2s;
+  }
+ 
+  #DoIt a {
+    position: relative;
+    height: 100%;
+   
+    
+  }
+  
+  #DoIt a h2 {
+   margin-top: 20%;
+    font-weight: bold;
+    font-size: 5em;
+    position: relative;
+    opacity: 0.7;
+    -moz-transition: all ease 0.6s;
+    -webkit-transition: all ease 0.6s;
+    transition: all ease 0.6s;
+  }
+    #DoIt:hover a h2{
+      opacity: 1;
+    }
+    #DoIt a button {
+      
+      position: relative;
+      opacity: 0.7;
+      -moz-transition: all ease 0.6s;
+    -webkit-transition: all ease 0.6s;
+    transition: all ease 0.6s;
+    }
+  #DoIt:hover a button{
+    opacity: 1;
+  }
+  #SocialNet {
+   padding-top: 100px;
+  }
+}
+/* only mobie*/
+@media only screen and (max-width: 480px){
+  header {
+  z-index: 100;
+  height: 53px;
+  width: 100%;
+    background: #0E1832;
+    top: 0px;
+    left: 0px;
+}
+  header a{
+    overflow: hidden;
+    float: left;
+    position: relative;
+    margin-left: 10px;
+  }
+header img {
+  z-index: 100;
+   width: 53px !important;
+   height: 53px !important;
+ 
+}
+  header h1 {
+    position: absolute;
+    line-height: 53px;
+    text-indent: 90px;
+    font-weight: bold;
+    font-size: 1em;
+     display: block !important;
+  }
+  #menu-icon {
+    top: -20px;
+    height: 53px;
+    right: 0px;
+    line-height: 53px;
+   width: 120px;
+  }
+  
+  #menu-icon span.glyphicon-align-justify:before {
+  font-size: 2em;
+    display: block;
+    margin-top: 10px;
+   float: right;
+  color: #EE2547;
+}
+  
+  
+#Banner {
+ top: 20%;
+ left: 15%;
+  width: 70%;
+  z-index: -1;
+}
+  #Banner p {
+    line-height: 1.5em;
+    font-size: 1.5em;
+    text-transform: uppercase;
+  }
+ .while {
+    z-index: -1;
+   width: 100%;
+  }
+  .while span {
+    width: 100%;
+  }
+  #Intro{
+    z-index: 3;
+    margin-top: 402px;
+    font-size: 0.8em;
+  }
+
+   #project #someProject a{
+     position: relative;
+   }
+  #project #someProject a:after{
+    content: "";
+    background: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px; left: 0px;
+  opacity: 0.7;
+  }
+  #project{
+    padding-top: 70px;
+  }
+  #project h2 {
+    margin-bottom: 10px;
+  }
+  
+  #project #someProject a {
+    height:240px;
+    text-align: left;
+   background-size: 100% 100%;
+   
+  }
+
+  #project h3{
+     z-index: 3;
+    text-align: center;
+    font-size: 2em !important;;
+    position: relative;
+   padding-top: 10%;
+  
+     
+  }
+  #project p {
+    z-index: 3;
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+    position: relative;
+   
+   
+  }
+  #project #bg-project {
+      background: #ECF1F5;
+      padding: 100px 0px;
+  }
+  .red{
+    width: 100%;
+  }
+  .red span {
+    width: 100%;
+  }
+  #trust {
+    position: relative;
+   
+  }
+  #trust:before  {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    margin-left: -50px;
+    content: "";
+    border-top: 50px solid #fff;
+     border-right: 50px solid #ECF1F5;
+     border-bottom: 0px solid #ECF1F5;
+     border-left: 50px solid #ECF1F5;
+  }
+    #trust div:nth-child(4){
+    display: none;
+  }
+  #trust div:nth-child(5){
+    display: none;
+  }
+  #Digial {
+    padding-bottom: 70px;
+  }
+    #Digial h2 {
+      font-size: 2em;
+      width: 95%;
+    }
+  #Digial p {
+    font-size: 1.3em;
+    width: 90%;
+  }
+  #Digial .red {
+    margin-top: 70px;
+  }
+ 
+  #DoIt:after {
+  position: absolute;
+    top: 0px;
+    left: 50%;
+    margin-left: -50px;
+    content: "";
+    border-top: 50px solid #fff;
+     border-right: 50px solid transparent;
+     border-bottom: 0px solid #ECF1F5;
+     border-left: 50px solid transparent;
+  }
+  #DoIt #opacity-bg {
+    
+   display: block;
+   background: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    
+    top: 0px;left: 0px;
+    
+   opacity: 0.6;
+  }
+  #DoIt {
+    height: 304px;
+    background-size: 100% 100%;
+    -moz-transition: all ease 0.7s;
+    -webkit-transition: all ease 0.7s;
+    transition: all ease 2s;
+  }
+ 
+  #DoIt a {
+    position: relative;
+    height: 100%;
+   
+    
+  }
+  
+  #DoIt a h2 {
+   margin-top: 15%;
+    font-weight: bold;
+    font-size: 4em;
+    position: relative;
+    opacity: 0.7;
+    -moz-transition: all ease 0.6s;
+    -webkit-transition: all ease 0.6s;
+    transition: all ease 0.6s;
+  }
+    #DoIt:hover a h2{
+      opacity: 1;
+    }
+    #DoIt a button {
+      
+      position: relative;
+      opacity: 0.7;
+      -moz-transition: all ease 0.6s;
+    -webkit-transition: all ease 0.6s;
+    transition: all ease 0.6s;
+    }
+  #DoIt:hover a button{
+    opacity: 1;
+  }
+  #Slide .slideItem p {
+    font-size: 1em;
+  }
+  #SocialNet {
+   padding-top: 150px;
+  }
+}
